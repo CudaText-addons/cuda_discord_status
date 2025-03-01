@@ -139,7 +139,7 @@ class Command:
         pass
         
     def on_exit(self, ed_self):
-        self.dissconnect()
+        self.disconnect()
         
     def on_open(self, ed_self):
         if self.is_connect:
