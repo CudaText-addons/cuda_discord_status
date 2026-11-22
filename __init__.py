@@ -187,7 +187,7 @@ class Command:
             else:
                 name_proj = "Empty"
         
-        name = os.path.basename(ed_self.get_filename())
+        name = os.path.basename(ed_self.get_prop(PROP_FN, ''))
         
         if name == "":
             name = "untitled"
