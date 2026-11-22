@@ -1,11 +1,11 @@
 2026.11.21
 - avoid deprecated API: get_filename
 
-2021.03.13
+2022.03.13
 + Added display of INI light lexer in discord status.
 + Added readme/history.txt
 
-2021.03.10
+2022.03.10
 * When the project is initialized, it no longer connects to the discord, but is moved to the connect button to save startup time.
 + Added an item in the configuration file about whether it is necessary to show in the status about the loss of program focus.
 * Card editing is now a plugin setting, where you can configure auto-connection, whether to show activity, etc.
